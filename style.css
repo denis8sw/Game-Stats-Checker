@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    background-color: black;
+    height: 1110px;
+}
+
+input {
+    outline: none;
+    width: 400px;
+    height: 30px;
+    border: none;
+    background-color: rgb(20, 18, 18);
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+p{
+    font-weight: 600;
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    position: relative;
+    top: 160px;
+    color: red;
+    text-align: center;
+    font-size: 17px;
+}
+
+.search {
+    position: relative;
+    top: 7px;
+    font-size: 26px;
+    right: 36px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.main {
+    position: relative;
+    top: 70px;
+}
+
+.themain{
+    justify-content: center;
+    
+}
+
+.general {
+    position: relative;
+    top: 150px;
+    background-color: rgb(20, 18, 18);
+    width: 270px;
+    height: 340px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.general p {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    z-index: 10;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.general h2{
+    position: relative;
+    top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white ;
+}
+
+
+.ranked {
+    position: relative;
+    top: 150px;
+    background-color: rgb(20, 18, 18);
+    width: 270px;
+    height: 340px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.ranked p {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    z-index: 10;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.ranked h2{
+    position: relative;
+    top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white ;
+}
+
+
+.unranked {
+    position: relative;
+    top: 150px;
+    background-color: rgb(20, 18, 18);
+    width: 270px;
+    height: 340px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.unranked p {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    z-index: 10;
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.unranked h2{
+    position: relative;
+    top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white ;
+}
+
+
+.bancheck {
+    position: relative;
+    top: 150px;
+    background-color: rgb(20, 18, 18);
+    width: 270px;
+    height: 340px;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.bancheck p {
+    position: relative;
+    top: -29px;
+    text-align: center;
+    z-index: 10;
+    color: rgb(77, 147, 143);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.bancheck h2{
+    position: relative;
+    top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white ;
+}
+
+
+.secondmain{
+    justify-content: center;
+}
+
+.rank{
+    position: relative;
+    top: 170px;
+    background-color: rgb(20, 18, 18);
+    width: 320px;
+    height: 340px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.rank h2{
+    position: relative;
+    top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white ;
+}
+
+.rank p{
+    position: relative;
+    top: 0px;
+    text-align: center;
+    z-index: 10;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.names{
+    position: relative;
+    top: 170px;
+    background-color: rgb(20, 18, 18);
+    width: 320px;
+    height: 340px;
+    border-radius: 20px;
+    overflow-y: auto;
+    margin-right: 30px;
+}
+
+.names h2{
+    position: relative;
+    top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white ;
+}
+
+.names p{
+    position: relative;
+    top: 0px;
+    text-align: center;
+    z-index: 10;
+    color: rgb(77, 116, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+.seasonranks{
+    position: relative;
+    top: 170px;
+    background-color: rgb(20, 18, 18);
+    width: 320px;
+    height: 340px;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+.seasonranks h2{
+    position: relative;
+    top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white ;
+}
+
+.seasonranks p{
+    position: relative;
+    top: 0px;
+    text-align: center;
+    z-index: 10;
+    color: rgb(156, 214, 162);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 230px;
+}
+

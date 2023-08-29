@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <center>
+        <div class="main">
+            <h1>R6 Fast Stats</h1>
+            <input type="text" id="userinp" placeholder="Enter Username">
+            <ion-icon name="caret-forward-outline" class="search" id="mainbtn"></ion-icon>
+        </div>
+    </center>
+
+
+    <h3 id="serverdown">Server is currently down. Please try again later.</h3>
+
+    <div class="themain" id="themain">
+        <div class="general">
+            <h2>General</h2>
+            <p id="thewins"></p>
+            <p id="thelosses"></p>
+            <p id="thekills"></p>
+            <p id="thedeaths"></p>
+            <p id="winper"></p>
+            <p id="thekd"></p>
+            <p id="thehours"></p>
+            <p id="thematches"></p>
+        </div>
+
+        <div class="ranked">
+            <h2>Ranked</h2>
+            <p id="thewins2"></p>
+            <p id="thelosses2"></p>
+            <p id="thekills2"></p>
+            <p id="thedeaths2"></p>
+            <p id="winper2"></p>
+            <p id="thekd2"></p>
+            <p id="thehours2"></p>
+            <p id="thematches2"></p>
+        </div>
+
+        <div class="unranked">
+            <h2>Unranked & Casual</h2>
+            <p id="thewins3"></p>
+            <p id="thelosses3"></p>
+            <p id="thekills3"></p>
+            <p id="thedeaths3"></p>
+            <p id="winper3"></p>
+            <p id="thekd3"></p>
+            <p id="thehours3"></p>
+            <p id="thematches3"></p>
+        </div>
+
+        <div class="bancheck">
+            <h2>RP History</h2>
+            <center>
+                <p id="rp"></p>
+            </center>
+        </div>
+
+    </div>
+
+
+    <div class="secondmain" id="secondmain">
+        <div class="rank" id="therank">
+            <h2>Cheater Detector</h2>
+            <p>Cheater: <span id="cheater"></span></p>
+            <p>Paid Account: <span id="paid"></span></p>
+            <p></p>
+        </div>
+
+        <div class="names">
+            <h2>Name History</h2>
+            <p id="thenames"></p>
+        </div>
+
+        <div class="seasonranks">
+            <h2>Season Ranks</h2>
+            <center>
+                <p id="theseasonranks"></p>
+            </center>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
